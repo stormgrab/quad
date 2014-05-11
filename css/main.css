@@ -10,9 +10,22 @@ body {
 	/*padding-bottom: 20px;*/
 }
 
+.page-heading {
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin-top: 50px;
+}
 
-
-
+.header-jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.header-jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
 
 
 
