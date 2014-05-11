@@ -9,7 +9,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">QUAD</a>
+				<img class="navbar-brand" src="img/quadtry.png">
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-left">
@@ -19,7 +19,7 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Supply <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li class="dropdown-submenu"> <a tabindex="-1" href="#">Raw Materials </a>
+							<!-- <li class="dropdown-submenu"> <a tabindex="-1" href="#">Raw Materials </a>
 								<ul class="dropdown-menu">
 									<li><a tabindex="-1" href="#">Level 2</a></li>
 									<li><a href="#">Level 2</a></li>
@@ -41,7 +41,10 @@
 									<li><a href="#">Level 2</a></li>
 									<li><a href="#">Level 2</a></li>
 								</ul>
-							</li>
+							</li> -->
+							<li><a href="#">Raw Material</a></li>
+							<li><a href="#">Consumables</a></li>
+							<li><a href="#">Machinary & Spares</a></li>
 						</ul>
 					</li>
 					<li><a href="exclusiveproducts.php">Exclusive Products</a></li>

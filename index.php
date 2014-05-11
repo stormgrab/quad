@@ -22,30 +22,10 @@
 						<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 				<![endif]-->
 
+		
 		<!-- Modal -->
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-						<h4 class="modal-title">Contact Details</h4>
-					</div>
-					<div class="modal-body row">
-						<p class="col-sm-6">
-							Address:<br>
-							11 1st Main,<br>
-							Brindavan Extension,<br>
-							Arekere Layout - 75
-						</p>
-						<p class="col-sm-6">
-							Phone:<br>
-							98765-43210<br>
-							98765-43210
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
+		<?php include 'includes/contactmodal.php'; ?>
+		
 
 		<div class="site-wrapper">
 
@@ -71,7 +51,7 @@
 						<div id="owl-cover" class="owl-carousel owl-theme">
 						 
 							<div class="item">
-								<img class="cover-heading" src="img/css3.png">
+								<img class="cover-heading" src="img/rocket.png">
 								<h3 class="lead">QUAD is a one-page template<br> for building simple and beautiful pages.</h3>
 							</div>
 							<div class="item">
@@ -105,22 +85,6 @@
 		</div>
 
 		<!-- Scripts -->
-				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-				<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-
-				<script src="js/vendor/bootstrap.min.js"></script>
-
-				<script src="js/main.js"></script>
-				<script src="js/owl.carousel.min.js"></script>
-
-				<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-				<script>
-						(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-						function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-						e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-						e.src='//www.google-analytics.com/analytics.js';
-						r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-						ga('create','UA-XXXXX-X');ga('send','pageview');
-				</script>
+				<?php include 'includes/scripts.php' ?>
 		</body>
 </html>
