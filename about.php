@@ -11,7 +11,7 @@
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 
 				<link rel="stylesheet" href="css/bootstrap-flatly.css">
-				<link rel="stylesheet" href="css/cover.css">
+				<link rel="stylesheet" href="css/main.css">
 				<link rel="stylesheet" href="css/owl.carousel.css">
 				<link rel="stylesheet" href="css/owl.transitions.css">
 
@@ -23,7 +23,7 @@
 				<![endif]-->
 
 		<!-- Modal -->
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal text-center fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -47,62 +47,59 @@
 			</div>
 		</div>
 
-		<div class="site-wrapper">
-
-			<div class="site-wrapper-inner">
-
-				<div class="cover-container">
-
-					<div class="masthead clearfix">
-						<div class="inner">
-							<h3 class="masthead-brand">QUAD</h3>
-							<ul class="nav masthead-nav">
-								<li class="active"><a href="#">Home</a></li>
-								<li><a href="about.php">Site</a></li>
-								<li><a href="#" data-toggle="modal" data-target="#myModal">Contact</a></li>
-							</ul>
-						</div>
-					</div>
-
-					
-
-					<div class="inner cover">
-
-						<div id="owl-cover" class="owl-carousel owl-theme">
-						 
-							<div class="item">
-								<img class="cover-heading" src="img/css3.png">
-								<h3 class="lead">QUAD is a one-page template<br> for building simple and beautiful pages.</h3>
-							</div>
-							<div class="item">
-								<p class="lead">
-									<img src="img/main01.jpg" class="img-responsive img-thumbnail">
-								</p>
-								<h3 class="cover-heading">#TopQualityProducts !</h3>
-							</div>
-							<div class="item">
-								<p class="lead">
-									<img src="img/main04.jpg" class="img-responsive img-thumbnail">
-								</p>
-								<h3 class="lead">#PerformanceGauranteed !</h3>
-							</div>
-						 
-						</div>
-						
-					</div>
-
-
-					<div class="mastfoot">
-						<div class="inner">
-							<p>Quad Technologies &copy;, 2014.</p>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-
+		<!-- Navbar -->
+		<div class="navbar-wrapper">
+			<?php include 'includes/navbar.php'; ?>
 		</div>
+
+
+		<!-- Carousel -->
+		<?php include 'includes/mainslider.php'; ?>
+
+
+
+		<!-- Marketing messaging and featurettes
+		================================================== -->
+		<!-- Wrap the rest of the page in another container to center all the content. -->
+
+		<hr class="featurette-divider">
+
+		<div class="container marketing">
+			<div class="jumbotron header-jumbotron">
+		        <h1>Introducing QUAD</h1>
+		        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+		    </div>
+			<!-- Three columns of text below the carousel -->
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Heading<br>
+						<small>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</small>
+					</h1>
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-lg-12 text-center">
+					<img class="img-circle" data-src="holder.js/300x300" alt="Generic placeholder image">
+				</div>
+				
+				<div class="col-lg-12">
+					<h1>Heading<br>
+						<small>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</small>
+					</h1>
+					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+				</div><!-- /.col-lg-4 -->
+				
+			</div><!-- /.row -->
+
+				<hr class="featurette-divider">
+
+			<!-- FOOTER -->
+			<footer>
+				<p class="pull-right"><a href="#">Back to top</a></p>
+				<p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+			</footer>
+
+		</div> <!-- /container -->        
+
 
 		<!-- Scripts -->
 				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -111,6 +108,7 @@
 				<script src="js/vendor/bootstrap.min.js"></script>
 
 				<script src="js/main.js"></script>
+				<script src="js/docs.js"></script>
 				<script src="js/owl.carousel.min.js"></script>
 
 				<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

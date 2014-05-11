@@ -10,8 +10,7 @@
 				<meta name="description" content="">
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 
-				<link rel="stylesheet" href="css/bootstrap.min.css">
-				<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+				<link rel="stylesheet" href="css/bootstrap-flatly.css">
 				<link rel="stylesheet" href="css/main.css">
 
 				<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -35,10 +34,9 @@
 
 			<!-- START THE FEATURETTES -->
 
-			<div class="jumbotron header-jumbotron">
-        <h1>Exclusive Products</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+		<div class="jumbotron header-jumbotron">
+	        <h1>Exclusive Products</h1>
+	        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
 	    </div>
 
 			<hr class="featurette-divider">

@@ -14,7 +14,7 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-left">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="#about">About</a></li>
+					<li><a href="about.php">About</a></li>
 					<li><a href="#contact">Consultancy</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Supply <b class="caret"></b></a>
@@ -47,7 +47,7 @@
 					<li><a href="exclusiveproducts.php">Exclusive Products</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Contact</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#myModal">Contact</a></li>
 				</ul>
 			</div>
 		</div>
