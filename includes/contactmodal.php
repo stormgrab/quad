@@ -7,13 +7,13 @@
 			</div>
 			<div class="modal-body row">
 				<p class="col-sm-6">
-					Address:<br>
-					11 1st Main,<br>
+					<span class="glyphicon glyphicon-send"> Address:<span><br><br>
+					#11, 1st Main,<br>
 					Brindavan Extension,<br>
 					Arekere Layout - 75
 				</p>
 				<p class="col-sm-6">
-					Phone:<br>
+					<span class="glyphicon glyphicon-phone"> Phone:<span><br><br>
 					98765-43210<br>
 					98765-43210
 				</p>

@@ -51,8 +51,8 @@
 						<div id="owl-cover" class="owl-carousel owl-theme">
 						 
 							<div class="item">
-								<img class="cover-heading" src="img/rocket.png">
-								<h3 class="lead">QUAD is a one-page template<br> for building simple and beautiful pages.</h3>
+								<img class="cover-heading" src="img/quadtry.png">
+								<h3 class="lead">One stop<br>for all your needs.</h3>
 							</div>
 							<div class="item">
 								<p class="lead">
@@ -74,7 +74,7 @@
 
 					<div class="mastfoot">
 						<div class="inner">
-							<p>Quad Technologies &copy;, 2014.</p>
+							<p>&copy; Quad Technologies, 2014</p>
 						</div>
 					</div>
 

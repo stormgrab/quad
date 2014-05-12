@@ -15,7 +15,13 @@
 				<ul class="nav navbar-nav navbar-left">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">About</a></li>
-					<li><a href="#contact">Consultancy</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Consultancy <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Marine</a></li>
+							<li><a href="#">Oil & Gas</a></li>
+						</ul>
+					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Supply <b class="caret"></b></a>
 						<ul class="dropdown-menu">

@@ -40,21 +40,21 @@
 			<div class="jumbotron header-jumbotron">
 		        <h1>Introducing QUAD</h1>
 		        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-		    </div>
+		   </div>
 			<!-- Three columns of text below the carousel -->
 			<div class="row text-center">
 				<div class="col-lg-12">
-					<h1>Heading<br>
+					<h1>Who are we?<br>
 						<small>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</small>
 					</h1>
 				</div><!-- /.col-lg-4 -->
 				
-				<div class="col-lg-12 text-center" style="margin:25px 0 25px 0;">
+				<div class="col-lg-12 text-center" style="margin:30px 0 30px 0;">
 					<img class="img-circle" src="img/quadtry.png" alt="Generic placeholder image">
 				</div>
 				
 				<div class="col-lg-12">
-					<h1>Another One<br>
+					<h1>Why pick us?<br>
 						<small>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</small>
 					</h1>
 					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -62,13 +62,10 @@
 				
 			</div><!-- /.row -->
 
-				<hr class="featurette-divider">
 
 			<!-- FOOTER -->
-			<footer>
-				<p class="pull-right"><a href="#">Back to top</a></p>
-				<p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-			</footer>
+			<?php include 'includes/footer.php' ?>
+			
 
 		</div> <!-- /container -->        
 
