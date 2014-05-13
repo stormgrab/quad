@@ -1,0 +1,17 @@
+Pages' names should be: Home, About us, Consultancy, Supply, Exclusive Products, Contact us.
+
+Home: Address + QUAD's logo "dancing on screen with a slide show of photos" (1 page)
+
+About us: Introduction - brief presentation of QUAD (1 page)
+
+Consultancy: Engineering, Project Management, Production Management (1 page / 3 slides with pictures)
+
+Supply will have 3 fields: Raw Materials, Consumables, Machinery & Spares
+			Raw Materials: Pipes, Fittings, Steel Plates, Paint Products, Fasteners (3/4 slides with pictures)
+            Machinery & Spares: Pumps, Valves, Miscellaneous (few slides with pictures)
+It has to show the Company's activity fields as: Consultancy & Supply.
+
+Exclusive Products: Rust Bullet, Hold tight (1 page with few slides pics)
+
+Consultancy will cover 2  industries: Marine, Oil & Gas, with 3 activities: Engineering, Project Management & Production Management 
+in 4 domains: Ship Building, Ship Repairs, FPSO, FSO, FSRU Conversion, Rigs & Offshore Vessels Building and Maintenance.

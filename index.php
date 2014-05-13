@@ -48,21 +48,23 @@
 
 					<div class="inner cover">
 
-						<div id="owl-cover" class="owl-carousel owl-theme">
+						<div id="owl-cover" class="owl-carousel owl-theme text-center">
 						 
 							<div class="item">
-								<img class="cover-heading" src="img/quadtry.png">
+								<p class="lead">
+									<img src="img/quadlogo.png" class="" width="341px" height="341px">
+								</p>
 								<h3 class="lead">One stop<br>for all your needs.</h3>
 							</div>
 							<div class="item">
 								<p class="lead">
-									<img src="img/main01.jpg" class="img-responsive img-thumbnail">
+									<img src="img/main01.jpg" class="img-thumbnail">
 								</p>
 								<h3 class="cover-heading">#TopQualityProducts !</h3>
 							</div>
 							<div class="item">
 								<p class="lead">
-									<img src="img/main04.jpg" class="img-responsive img-thumbnail">
+									<img src="img/main04.jpg" class="img-thumbnail">
 								</p>
 								<h3 class="lead">#PerformanceGauranteed !</h3>
 							</div>

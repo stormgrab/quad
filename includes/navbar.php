@@ -15,13 +15,14 @@
 				<ul class="nav navbar-nav navbar-left">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">About</a></li>
-					<li class="dropdown">
+					<li><a href="consultancy.php">Consultancy</a></li>
+					<!-- <li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Consultancy <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Marine</a></li>
 							<li><a href="#">Oil & Gas</a></li>
 						</ul>
-					</li>
+					</li> -->
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Supply <b class="caret"></b></a>
 						<ul class="dropdown-menu">
@@ -48,12 +49,12 @@
 									<li><a href="#">Level 2</a></li>
 								</ul>
 							</li> -->
-							<li><a href="#">Raw Material</a></li>
+							<li><a href="raw_materials.php">Raw Materials</a></li>
 							<li><a href="#">Consumables</a></li>
-							<li><a href="#">Machinary & Spares</a></li>
+							<li><a href="machinery_spares.php">Machinery & Spares</a></li>
 						</ul>
 					</li>
-					<li><a href="exclusiveproducts.php">Exclusive Products</a></li>
+					<li><a href="exclusive_products.php">Exclusive Products</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#" data-toggle="modal" data-target="#myModal">Contact</a></li>
