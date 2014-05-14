@@ -1,7 +1,8 @@
 $(document).ready(function() {
  
 	var time = 3; // time in seconds
- 
+	var carouselHeight = (window.innerHeight-100)+'px';
+
 	var $progressBar,
 	  $bar, 
 	  $elem, 
@@ -19,6 +20,7 @@ $(document).ready(function() {
 	  transitionStyle : "fade",
 	  startDragging : pauseOnDragging
 	});
+
  
 	//Init progressBar where elem is $("#owl-me")
 	function progressBar(elem){
@@ -89,4 +91,12 @@ $(document).ready(function() {
 	  transitionStyle : "goDown",
 	});
 	
+
+	$('#home-logo').load(function(){
+		$(this)
+			.transition({ rotate: '360deg',easing:'ease',duration:1000,delay:1000})
+			.transition({ scale: [1.5, 1.5] })
+			.transition({ scale: [1, 1] }).repeat();
+	});
+		
 });

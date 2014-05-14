@@ -34,8 +34,6 @@
 		================================================== -->
 		<!-- Wrap the rest of the page in another container to center all the content. -->
 
-		<hr class="featurette-divider">
-
 		<div class="container marketing">
 			<div class="jumbotron header-jumbotron">
 		        <h1>Introducing QUAD</h1>
@@ -50,7 +48,7 @@
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-lg-12 text-center" style="margin:30px 0 30px 0;">
-					<img class="img-circle" src="img/quadtry.png" alt="Generic placeholder image">
+					<img class="img-circle" src="img/logo.png" alt="Generic placeholder image">
 				</div>
 				
 				<div class="col-lg-12">

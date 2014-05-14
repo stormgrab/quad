@@ -42,7 +42,6 @@
 </div> -->
 
 <div id="owl-main" class="owl-carousel owl-theme">
- 
   <div class="item"><img src="img/main01.jpg"></div>
   <div class="item"><img src="img/main02.jpg"></div>
   <div class="item"><img src="img/main03.jpg"></div>

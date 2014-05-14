@@ -21,7 +21,7 @@ body {
 #owl-main .item img{
     display: block;
     width: 100%;
-    height: auto;
+    height: 550px;
 }
 
 #bar{
@@ -37,6 +37,19 @@ body {
 
 .modal-body p:first-child {
   border-right: 1px  solid #ddd;
+}
+
+.masthead{
+  margin-bottom: 100px;
+}
+
+.nav{
+  margin-top: 20px;
+}
+
+.navbar-brand{
+  height: 100px;
+  width: 100px;
 }
 
 

@@ -6,6 +6,7 @@
 <script src="js/main.js"></script>
 <script src="js/docs.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script src="js/transit.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
